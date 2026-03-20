@@ -1,6 +1,11 @@
 import alchemy.transmutation as trans
 import alchemy
 
+"""
+Basically we do the same thing over and over again...
+Yeah boring
+"""
+
 
 def main() -> None:
 

@@ -1,5 +1,16 @@
 from alchemy.grimoire import record_spell, validate_ingredients
 
+"""
+Pretty stupid thing we got since we cant really reproduce one of the
+methods the subjects suggests but...sure!!!
+BUT we do learn about another type of import, the "late import"
+"late import" is like the typical schoolgirl that forgets that shes
+late for school and eats her toast while running to school!!!
+
+jk late importing only imports the module when the function is called
+this prevents circular imports...the tradeoff is "bad readability" (idc)
+"""
+
 
 def main() -> None:
     print("=== Circular Curse Breaking ===\n")

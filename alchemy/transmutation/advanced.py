@@ -1,5 +1,6 @@
 from .basic import lead_to_gold
 from ..potions import healing_potion
+# and here is a relative import
 
 
 def philosophers_stone() -> str:

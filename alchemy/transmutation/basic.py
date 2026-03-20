@@ -1,4 +1,5 @@
 from alchemy.elements import create_fire, create_earth
+# above is an absolute import
 
 
 def lead_to_gold() -> str:

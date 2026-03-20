@@ -1,5 +1,13 @@
 import alchemy
-import alchemy.elements
+
+"""
+Demo script to show how to import things from other files
+We can import libraries but we can also import files that we
+made too...
+'import alchemy' is the name of the folder/module
+'alchemy.elements.<function>' is a direct module access,
+basically we literally "call" the function to work with
+"""
 
 
 def main() -> None:
@@ -10,6 +18,7 @@ def main() -> None:
     earth_msg = alchemy.elements.create_earth()
     air_msg = alchemy.elements.create_air()
 
+    print("\nTesting direct module access:")
     print(f"alchemy.elements.create_fire(): {fire_msg}")
     print(f"alchemy.elements.create_water(): {water_msg}")
     print(f"alchemy.elements.create_earth(): {earth_msg}")

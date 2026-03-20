@@ -4,6 +4,12 @@ from alchemy.potions import healing_potion as heal
 from alchemy.elements import create_fire, create_earth
 from alchemy.potions import strength_potion
 
+"""
+Demo script...to show how things work again!
+now we learn about the other other "as", its called an "aliased import"
+"as" is basically an alias...for easier writing i suppose
+"""
+
 
 def main() -> None:
     print("=== Import Transmutation Mastery ===\n")
