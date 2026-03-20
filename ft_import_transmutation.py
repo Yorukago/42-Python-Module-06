@@ -6,7 +6,7 @@ from alchemy.potions import strength_potion
 
 
 def main() -> None:
-    print("=== Import Transmutation Mastery ===")
+    print("=== Import Transmutation Mastery ===\n")
 
     print("Method 1 - Full module import:")
     print(f"alchemy.elements.create_fire(): {alchemy.elements.create_fire()}")
